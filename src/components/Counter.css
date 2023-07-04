@@ -1,0 +1,28 @@
+.container {
+    max-width: 600px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 8px;
+    padding: 4em 2em;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.button {
+    padding: 1em 3em;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    opacity: 0.7;
+    transform: scale(105%);
+}
+
+.button + .button {
+    margin-left: 2em;
+}
