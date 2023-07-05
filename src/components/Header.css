@@ -1,0 +1,42 @@
+.header {
+   background-color: blueviolet;
+   color: #fff;
+   font-family: sans-serif;
+   margin-bottom: 3rem;
+}
+
+.header .container {
+   max-width: 1366px;
+   width: 85%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header .container h1 {
+   padding: 1em 0;
+}
+
+.header h1 {
+   margin: 0;
+}
+
+.header .container nav ul {
+   display: flex;
+   align-items: center;
+   gap: 3rem;
+   padding-left: 0;
+}
+
+.header .container nav li {
+   list-style: none;
+   font-size: 1.2rem;
+}
+
+nav ul .button {
+   background-color: #fff;
+   padding: 0.75em 2em;
+   color: blueviolet;
+   border-radius: 8px;
+}
